@@ -1,0 +1,133 @@
+body {
+  background-color: #d1d4d4;
+}
+body a {
+  text-decoration: none;
+}
+
+header .logopicture {
+  width: 400px;
+  height: 80px;
+}
+
+.navbar ul {
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar li a {
+  color: rgb(23, 0, 128);
+  margin-left: 50px;
+}
+
+.slider_text {
+  padding: 10%;
+}
+
+.prev {
+  position: absolute;
+  bottom: -40px;
+  right: 60%;
+}
+
+.next {
+  position: absolute;
+  bottom: -40px;
+  left: 60%;
+}
+
+.slick-arrow {
+  background-color: transparent;
+  border: 2px solid rgb(124, 88, 216);
+  outline: none;
+  color: #142128;
+  font-size: 15px;
+  padding: auto 30px;
+  border-radius: 5px;
+}
+
+#first {
+  margin-top: 150px;
+}
+#first .title {
+  text-align: center;
+}
+
+#first .card {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px 0px rgba(87, 156, 159, 0.4);
+  background-color: #9dd8dd;
+  border: none;
+}
+#first .card .card-img-top {
+  height: 200px;
+}
+#first .card .card-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+#firstbutton {
+  background-color: #a6b9e3;
+  color: #FFF;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+#firstbutton:hover {
+  color: #3199b9;
+  background-color: whitesmoke;
+  transition: 1s ease-in-out all;
+}
+
+#second {
+  margin-top: 150px;
+}
+#second .title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#second .card {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px 0px rgba(87, 156, 159, 0.4);
+  background-color: #9dd8dd;
+  border: none;
+}
+#second .card .card-img-top {
+  height: 200px;
+}
+#second .card .card-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+#third {
+  margin-top: 150px;
+}
+#third .title {
+  text-align: center;
+  color: rgb(124, 116, 116);
+}
+#third .title h1 {
+  margin-bottom: 70px;
+}
+#third .container {
+  background-color: #a6b9e3;
+  border-radius: 20px;
+  padding: 30px 80px;
+}
+#third p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFF;
+  margin: auto 100px;
+  line-height: 45px;
+}
+
+#footerdiv .container {
+  margin-top: 130px;
+}/*# sourceMappingURL=style.css.map */
